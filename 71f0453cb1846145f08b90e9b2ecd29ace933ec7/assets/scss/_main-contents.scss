@@ -40,7 +40,6 @@
                     }
 
                     &-data {
-
                         &__btn {
                             background-color: white;
                         }
@@ -167,7 +166,7 @@
             z-index: 1;
 
             img {
-                width: 14.933vw;
+                width: 100%;
                 height: 92.933vw;
             }
         }
@@ -207,7 +206,6 @@
                     margin-bottom: 3.600vw;
                 }
             }
-
 
 
             &__caption {
@@ -281,7 +279,6 @@
         }
 
         &__description {
-            font-family: [GothicBBBPro];
             font-size: 3.467vw;
             line-height: 6.267vw;
             color: #000000;
@@ -296,49 +293,23 @@
             &__wrapper {
                 padding-top: 2.604vw;
                 margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
 
             &__heading {
                 text-align: center;
                 font-weight: 900;
                 font-size: 3.255vw;
-
             }
 
-            &__title{
-                font-size: 3.467vw;
-                line-height: 5.067vw;
-                padding-left: 1.600vw;
-                display: flex;
-                align-items: flex-start;
-                &::before {
-                    content: "";
-                    width: 3.255vw;
-                    height: 3.255vw;
-                    margin-top: 0.911vw;
-                    margin-left: -1.467vw;
-                    margin-right: 0.667vw;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-image: url('../img/icon01.png');
-                }
-            }
+        
 
             &__text {
                 font-size: 3.467vw;
                 margin-bottom: 1.302vw;
-
-                &--sub {
-                    font-size: 3.467vw;
-                    padding-left: 1.600vw;
-                    line-height: 5.067vw;
-                    &::before{
-                        content: '※';
-                        margin-left: -1.467vw;
-                        margin-right: 0.667vw;
-                    }
-                }
+                width: 100%;
             }
 
 
@@ -349,6 +320,27 @@
                 display: flex;
                 align-items: flex-start;
 
+                &--icon{
+                    font-size: 3.467vw;
+                    line-height: 5.067vw;
+                    padding-left: 1.600vw;
+                    display: flex;
+                    align-items: flex-start;
+                    &::before{
+                        content: "";
+                        width: 3.255vw;
+                        height: 3.255vw;
+                        margin-top: 0.911vw;
+                        margin-left: -1.467vw;
+                        margin-right: 0.667vw;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-image: url('../img/icon01.png');
+                    }
+                  
+                }
+
                 &::before {
                     content: "";
                     width: 3.255vw;
@@ -362,29 +354,36 @@
 
                 }
 
+
                 &:last-child {
                     margin-bottom: 0;
                 }
-
                 &:nth-child(1) {
+                    padding: 0;
                     &::before {
-                        background-image: url('../img/icon02.png');
+                       display: none;
                     }
                 }
 
                 &:nth-child(2) {
                     &::before {
-                        background-image: url('../img/icon03.png');
+                        background-image: url('../img/icon02.png');
                     }
                 }
 
                 &:nth-child(3) {
                     &::before {
-                        background-image: url('../img/icon04.png');
+                        background-image: url('../img/icon03.png');
                     }
                 }
 
                 &:nth-child(4) {
+                    &::before {
+                        background-image: url('../img/icon04.png');
+                    }
+                }
+
+                &:nth-child(5) {
                     &::before {
                         background-image: url('../img/icon05.png');
                     }
