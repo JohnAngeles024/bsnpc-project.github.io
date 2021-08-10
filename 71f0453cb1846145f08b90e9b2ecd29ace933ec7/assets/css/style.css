@@ -176,8 +176,8 @@
     z-index: 1;
   }
   .content__heading img {
-    width: 100%;
-    height: 92.933vw;
+    width: 14.933vw;
+    height: auto;
   }
   .content__wrapper {
     display: -webkit-box;
