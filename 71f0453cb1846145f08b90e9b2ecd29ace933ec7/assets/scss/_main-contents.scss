@@ -188,19 +188,20 @@
             align-items: center;
             z-index: 0;
 
-         
-            &__img{
+
+            &__img {
                 width: 100%;
                 height: 56.267vw;
                 z-index: -1;
                 margin-bottom: -3.600vw;
 
-                &--05{
+                &--05 {
                     width: 70vw;
                     height: 111.333vw;
                     margin-bottom: 3.600vw;
                 }
-                &--07{
+
+                &--07 {
                     width: 67.600vw;
                     height: 47.200vw;
                     margin-bottom: 3.600vw;
@@ -214,7 +215,7 @@
                 background-size: 69.333vw 100%;
                 width: 69.333vw;
                 height: auto;
-           
+
                 font-size: 2.667vw;
 
 
@@ -249,7 +250,8 @@
                 font-weight: 900;
                 display: flex;
                 align-items: center;
-                span{
+
+                span {
                     font-size: 4.267vw;
                 }
 
@@ -260,8 +262,9 @@
             }
 
             &__list {
-                border-top: 0.400vw dashed black;
+                border-top: 0.4100vw solid transparent;
                 padding-top: 2.133vw;
+                border-image: url("../img/border-bg.png") 30 stretch;
                 margin-top: 1.867vw;
             }
 
@@ -303,7 +306,7 @@
                 font-size: 3.255vw;
             }
 
-        
+
 
             &__text {
                 font-size: 3.467vw;
@@ -319,13 +322,14 @@
                 display: flex;
                 align-items: flex-start;
 
-                &--icon{
+                &--icon {
                     font-size: 3.467vw;
                     line-height: 5.067vw;
                     padding-left: 1.600vw;
                     display: flex;
                     align-items: flex-start;
-                    &::before{
+
+                    &::before {
                         content: "";
                         width: 3.255vw;
                         height: 3.255vw;
@@ -337,7 +341,7 @@
                         background-size: cover;
                         background-image: url('../img/icon01.png');
                     }
-                  
+
                 }
 
                 &::before {
@@ -357,10 +361,12 @@
                 &:last-child {
                     margin-bottom: 0;
                 }
+
                 &:nth-child(1) {
                     padding: 0;
+
                     &::before {
-                       display: none;
+                        display: none;
                     }
                 }
 
