@@ -269,11 +269,19 @@
     font-size: 4.267vw;
   }
   .content-figure__list {
-    border-top: 0.500vw solid;
     padding-top: 2.133vw;
-    -o-border-image: url("../img/border-bg.png") 30 stretch;
-       border-image: url("../img/border-bg.png") 30 stretch;
     margin-top: 1.867vw;
+    position: relative;
+  }
+  .content-figure__list::before {
+    content: '';
+    background-image: url("../img/border-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    height: 0.400vw;
+    width: 100%;
   }
   .content-figure__item {
     font-size: 3.200vw;

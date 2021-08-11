@@ -262,11 +262,19 @@
             }
 
             &__list {
-                border-top: 0.500vw solid;
-                // border-top: 3px dashed;
                 padding-top: 2.133vw;
-                border-image: url("../img/border-bg.png") 30 stretch;
                 margin-top: 1.867vw;
+                position: relative;
+                &::before {
+                    content: '';
+                    background-image: url("../img/border-bg.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: absolute;
+                    top: 0;
+                    height: 0.400vw;
+                    width: 100%;
+                }
             }
 
             &__item {
