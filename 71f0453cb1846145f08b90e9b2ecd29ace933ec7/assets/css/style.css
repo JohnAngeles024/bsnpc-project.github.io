@@ -269,7 +269,7 @@
     font-size: 4.267vw;
   }
   .content-figure__list {
-    border-top: 0.4100vw solid transparent;
+    border-top: 0.500vw solid;
     padding-top: 2.133vw;
     -o-border-image: url("../img/border-bg.png") 30 stretch;
        border-image: url("../img/border-bg.png") 30 stretch;

@@ -262,7 +262,8 @@
             }
 
             &__list {
-                border-top: 0.4100vw solid transparent;
+                border-top: 0.500vw solid;
+                // border-top: 3px dashed;
                 padding-top: 2.133vw;
                 border-image: url("../img/border-bg.png") 30 stretch;
                 margin-top: 1.867vw;
