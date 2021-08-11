@@ -269,10 +269,8 @@
     font-size: 4.267vw;
   }
   .content-figure__list {
-    border-top: 0.533vw solid transparent;
+    border-top: 0.400vw dashed black;
     padding-top: 2.133vw;
-    -o-border-image: url("../img/border-bg.png") 30 stretch;
-       border-image: url("../img/border-bg.png") 30 stretch;
     margin-top: 1.867vw;
   }
   .content-figure__item {
