@@ -108,6 +108,14 @@
             font-weight: 900;
             margin: 1.333vw 0 3.200vw 0;
 
+            &__span{
+                // ::before
+                // content: '';
+                // background-image: url("../img/パス.png");
+                // background-repeat: no-repeat;
+                // background-position: center bottom;
+            }
+
             &--sub {
                 font-size: 4.267vw;
                 color: #221714;
@@ -235,14 +243,23 @@
                 }
             }
 
-            &__title {
-                font-size: 3.200vw;
-            }
+
 
             &__heading {
                 font-size: 4.533vw;
                 line-height: 5.867vw;
 
+                ruby {
+                    display: inline-flex;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                rt {
+                    line-height: 1;
+                    font-size: 3.200vw;
+                }
             }
 
             &__price {
@@ -265,6 +282,7 @@
                 padding-top: 2.133vw;
                 margin-top: 1.867vw;
                 position: relative;
+
                 &::before {
                     content: '';
                     background-image: url("../img/border-bg.png");

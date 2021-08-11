@@ -244,12 +244,28 @@
   .content-figure__caption--wrapper {
     padding: 3.733vw;
   }
-  .content-figure__title {
-    font-size: 3.200vw;
-  }
   .content-figure__heading {
     font-size: 4.533vw;
     line-height: 5.867vw;
+  }
+  .content-figure__heading ruby {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .content-figure__heading rt {
+    line-height: 1;
+    font-size: 3.200vw;
   }
   .content-figure__price {
     font-size: 6.400vw;
