@@ -107,10 +107,10 @@
     padding: 7.333vw 0;
   }
   .banner__heading {
-    font-size: 9.333vw;
+    font-size: 9.733vw;
     color: #221714;
     text-align: center;
-    font-family: Kozuka Gothic Pr6N;
+    font-family: fot-udkakugo-large-pr6n, sans-serif;
     font-style: normal;
     font-weight: 900;
     margin: 1.333vw 0 3.200vw 0;
@@ -125,6 +125,29 @@
     background-position: center bottom;
     background-size: 75.467vw 2.133vw;
     height: 5.067vw;
+  }
+  .banner__span {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 900;
+  }
+  .banner__span::before {
+    content: '';
+    background-image: url("../img/dotted-line.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: absolute;
+    width: 43.067vw;
+    height: 2.667vw;
+    top: -4.533vw;
   }
   .banner__wrapper {
     width: 88.667vw;
@@ -242,11 +265,14 @@
     z-index: -1;
   }
   .content-figure__caption--wrapper {
-    padding: 3.733vw;
+    padding: 3.733vw 3.333vw 3.200vw 4vw;
   }
   .content-figure__heading {
     font-size: 4.533vw;
     line-height: 5.867vw;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 600;
   }
   .content-figure__heading ruby {
     display: -webkit-inline-box;
@@ -264,8 +290,10 @@
             justify-content: center;
   }
   .content-figure__heading rt {
+    text-align: center;
     line-height: 1;
     font-size: 3.200vw;
+    font-weight: 400;
   }
   .content-figure__price {
     font-size: 6.400vw;
@@ -276,13 +304,15 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 900;
   }
   .content-figure__price span {
     font-size: 4.267vw;
-  }
-  .content-figure__price::after {
-    content: '';
-    font-size: 4.267vw;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 900;
   }
   .content-figure__list {
     padding-top: 2.133vw;
@@ -302,20 +332,24 @@
   .content-figure__item {
     font-size: 3.200vw;
     line-height: 3.733vw;
-    margin-left: 3.600vw;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 600;
   }
   .content-figure__item::before {
     content: '※';
-    margin-left: -3.600vw;
   }
   .content__description {
     font-size: 3.467vw;
     line-height: 6.267vw;
     color: #000000;
     text-align: justify;
-    width: 80%;
+    width: 88%;
     line-height: 1.7;
     margin-bottom: 10.667vw;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 400;
   }
   .content-data__wrapper {
     padding-top: 2.604vw;
@@ -445,6 +479,18 @@
         -ms-flex-align: center;
             align-items: center;
     padding-top: 2.604vw;
+  }
+  @font-face {
+    font-family: GothicA1-Medium;
+    src: url("../font/Gothic_A1/GothicA1-Medium.ttf");
+  }
+  @font-face {
+    font-family: GothicA1-Light;
+    src: url("../font/Gothic_A1/GothicA1-Light.ttf");
+  }
+  @font-face {
+    font-family: M_PLUS_1p;
+    src: url("../font/Gothic_A1/");
   }
 }
 
