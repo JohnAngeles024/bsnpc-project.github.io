@@ -288,6 +288,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    letter-spacing: -1px;
   }
   .content-figure__heading rt {
     text-align: center;
