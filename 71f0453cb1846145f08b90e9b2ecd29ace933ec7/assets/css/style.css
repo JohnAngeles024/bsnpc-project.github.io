@@ -70,7 +70,7 @@
     height: 7.813vw;
     color: #d27c59;
     font-size: 4.133vw;
-    font-family: SFPro, Arial, Noto Sans JP, Noto Sans KR, sans-serif;
+    font-family: GothicA1-Medium;
     border-radius: 4.667vw;
     border: 0.133vw solid #000000;
     display: -webkit-box;
@@ -191,6 +191,7 @@
   .banner__text {
     font-size: 3.867vw;
     text-align: center;
+    font-family: GothicA1-Regular;
     line-height: 6.133vw;
     color: #221714;
   }
@@ -286,11 +287,11 @@
     padding: 3.733vw 3.333vw 3.200vw 4vw;
   }
   .content-figure__heading {
-    font-size: 34px;
+    font-size: 4.533vw;
     line-height: 5.867vw;
     font-family: GothicA1-Medium;
     font-weight: 600;
-    letter-spacing: -3px;
+    letter-spacing: -0.400vw;
   }
   .content-figure__heading ruby {
     display: -webkit-inline-box;
@@ -313,7 +314,7 @@
     line-height: 1;
     font-size: 3.200vw;
     font-weight: 600;
-    letter-spacing: -4px;
+    letter-spacing: -0.533vw;
     font-family: GothicA1-Light;
   }
   .content-figure__price {
@@ -438,7 +439,7 @@
     margin-right: 0.667vw;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .content-data__item:last-child {
     margin-bottom: 0;
@@ -467,7 +468,7 @@
     background-color: #fbf4d4;
     color: #000000;
     font-size: 3.906vw;
-    font-family: SFPro, Arial, Noto Sans JP, Noto Sans KR, sans-serif;
+    font-family: GothicA1-Medium;
     border-radius: 9.333vw;
     border: 0.133vw solid #000000;
     display: -webkit-box;
@@ -505,12 +506,12 @@
     src: url("../font/Gothic_A1/GothicA1-Medium.ttf");
   }
   @font-face {
-    font-family: GothicA1-Light;
-    src: url("../font/Gothic_A1/GothicA1-Light.ttf");
+    font-family: GothicA1-Regular;
+    src: url("../font/Gothic_A1/GothicA1-Regular.ttf");
   }
   @font-face {
-    font-family: M_PLUS_1p;
-    src: url("../font/Gothic_A1/");
+    font-family: GothicA1-Light;
+    src: url("../font/Gothic_A1/GothicA1-Light.ttf");
   }
 }
 
