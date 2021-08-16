@@ -47,6 +47,8 @@
                 }
             }
 
+      
+
             &:nth-child(n+2) {
 
                 .content {
@@ -116,7 +118,7 @@
         padding: 7.333vw 0;
 
         &__heading {
-            font-size:9.733vw;
+            font-size: 9.733vw;
             color: #221714;
             text-align: center;
             font-family: fot-udkakugo-large-pr6n, sans-serif;
@@ -281,7 +283,7 @@
                 font-size: 4.533vw;
                 line-height: 5.867vw;
                 font-family: GothicA1-Medium;
-                font-weight:600;
+                font-weight: 600;
                 letter-spacing: -0.400vw;
 
 
@@ -289,7 +291,7 @@
                     display: inline-flex;
                     flex-direction: column-reverse;
                     align-items: center;
-                    justify-content: center; 
+                    justify-content: center;
                     letter-spacing: 0;
                 }
 
@@ -298,7 +300,7 @@
                     line-height: 1;
                     font-size: 3.200vw;
                     font-weight: 600;
-                    letter-spacing:-0.533vw;
+                    letter-spacing: -0.533vw;
                     font-family: GothicA1-Light;
                 }
             }
@@ -309,13 +311,13 @@
                 align-items: center;
                 font-family: a-otf-gothic-bbb-pr6n, sans-serif;
                 font-style: normal;
-                font-weight:900;
+                font-weight: 900;
 
                 span {
                     font-size: 4.267vw;
                     font-family: a-otf-gothic-bbb-pr6n, sans-serif;
                     font-style: normal;
-                    font-weight:900;
+                    font-weight: 900;
                 }
             }
 
@@ -323,6 +325,7 @@
                 padding-top: 2.133vw;
                 margin-top: 1.867vw;
                 position: relative;
+
                 &::before {
                     content: '';
                     background-image: url("../img/border-bg.png");
@@ -340,12 +343,12 @@
                 line-height: 3.733vw;
                 font-family: a-otf-gothic-bbb-pr6n, sans-serif;
                 font-style: normal;
-                font-weight:600;
-      
+                font-weight: 600;
+
 
                 &::before {
                     content: '※';
-              
+
                 }
             }
         }
@@ -360,7 +363,7 @@
             margin-bottom: 10.667vw;
             font-family: a-otf-gothic-bbb-pr6n, sans-serif;
             font-style: normal;
-            font-weight:400;
+            font-weight: 400;
         }
 
 
@@ -413,6 +416,15 @@
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-image: url('../img/icon01.png');
+                    }
+
+                    &-none{
+                        font-size: 3.467vw;
+                        line-height: 5.067vw;
+                        padding-left: 1.600vw;
+                        &::before {
+                           display: none;
+                        }
                     }
 
                 }
@@ -500,14 +512,15 @@
     @font-face {
         font-family: GothicA1-Medium;
         src: url("../font/Gothic_A1/GothicA1-Medium.ttf");
-      }
-      
-      @font-face {
+    }
+
+    @font-face {
         font-family: GothicA1-Regular;
         src: url("../font/Gothic_A1/GothicA1-Regular.ttf");
-      }
-      @font-face {
+    }
+
+    @font-face {
         font-family: GothicA1-Light;
         src: url("../font/Gothic_A1/GothicA1-Light.ttf");
-      }
+    }
 }

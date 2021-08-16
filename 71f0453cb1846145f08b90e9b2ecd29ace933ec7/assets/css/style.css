@@ -430,6 +430,14 @@
     background-size: cover;
     background-image: url("../img/icon01.png");
   }
+  .content-data__item--icon-none {
+    font-size: 3.467vw;
+    line-height: 5.067vw;
+    padding-left: 1.600vw;
+  }
+  .content-data__item--icon-none::before {
+    display: none;
+  }
   .content-data__item::before {
     content: "";
     width: 3.255vw;
