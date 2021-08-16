@@ -90,7 +90,23 @@
                 }
             }
 
+            &:nth-child(4) {
 
+                .content {
+                    &-figure {
+                        &__heading {
+                            ruby {
+                                font-size: 4.133vw;
+                                display: inline-flex;
+                                flex-direction: column-reverse;
+                                align-items: center;
+                                justify-content: center;
+                                letter-spacing: -0.133vw;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -261,33 +277,33 @@
 
 
             &__heading {
-                font-size: 4.533vw;
+                font-size: 34px;
                 line-height: 5.867vw;
-                font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-                font-style: normal;
+                font-family: GothicA1-Medium;
                 font-weight:600;
+                letter-spacing: -3px;
 
 
                 ruby {
                     display: inline-flex;
                     flex-direction: column-reverse;
                     align-items: center;
-                    justify-content: center;
-                    letter-spacing: -1px;
-                    
+                    justify-content: center; 
+                    letter-spacing: 0;
                 }
 
                 rt {
                     text-align: center;
                     line-height: 1;
                     font-size: 3.200vw;
-                    font-weight: 400;
+                    font-weight: 600;
+                    letter-spacing: -4px;
+                    font-family: GothicA1-Light;
                 }
             }
 
             &__price {
                 font-size: 6.400vw;
-                font-weight: 900;
                 display: flex;
                 align-items: center;
                 font-family: a-otf-gothic-bbb-pr6n, sans-serif;
@@ -306,8 +322,6 @@
                 padding-top: 2.133vw;
                 margin-top: 1.867vw;
                 position: relative;
-               
-
                 &::before {
                     content: '';
                     background-image: url("../img/border-bg.png");
