@@ -102,6 +102,12 @@
             justify-content: center;
     padding-top: 2.604vw;
   }
+  .main__item:nth-child(4) .content-figure__heading {
+    font-family: GothicA1-Medium;
+    font-size: 4.267vw;
+    letter-spacing: -0.300vw;
+    font-weight: 600;
+  }
   .main__item:nth-child(4) .content-figure__heading ruby {
     font-size: 4.133vw;
     display: -webkit-inline-box;
@@ -290,7 +296,7 @@
     font-size: 4.533vw;
     line-height: 5.867vw;
     font-family: GothicA1-Medium;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: -0.400vw;
   }
   .content-figure__heading ruby {
@@ -313,7 +319,7 @@
     text-align: center;
     line-height: 1;
     font-size: 3.200vw;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: -0.533vw;
     font-family: GothicA1-Light;
   }
@@ -353,9 +359,7 @@
   .content-figure__item {
     font-size: 3.200vw;
     line-height: 3.733vw;
-    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    font-family: GothicA1-Regular;
   }
   .content-figure__item::before {
     content: '※';
@@ -368,8 +372,7 @@
     width: 88%;
     line-height: 1.7;
     margin-bottom: 10.667vw;
-    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    font-style: normal;
+    font-family: GothicA1-Medium;
     font-weight: 400;
   }
   .content-data__wrapper {

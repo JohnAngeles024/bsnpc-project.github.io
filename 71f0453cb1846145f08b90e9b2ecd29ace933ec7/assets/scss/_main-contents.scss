@@ -97,13 +97,17 @@
                 .content {
                     &-figure {
                         &__heading {
+                            font-family: GothicA1-Medium;
+                            font-size: 4.267vw;
+                            letter-spacing: -0.300vw;
+                            font-weight: 600;
                             ruby {
                                 font-size: 4.133vw;
                                 display: inline-flex;
                                 flex-direction: column-reverse;
                                 align-items: center;
                                 justify-content: center;
-                                letter-spacing: -0.133vw;
+                                letter-spacing:-0.133vw;
                             }
                         }
                     }
@@ -283,7 +287,7 @@
                 font-size: 4.533vw;
                 line-height: 5.867vw;
                 font-family: GothicA1-Medium;
-                font-weight: 600;
+                font-weight: 900;
                 letter-spacing: -0.400vw;
 
 
@@ -295,11 +299,12 @@
                     letter-spacing: 0;
                 }
 
+              
                 rt {
                     text-align: center;
                     line-height: 1;
                     font-size: 3.200vw;
-                    font-weight: 600;
+                    font-weight: 400;
                     letter-spacing: -0.533vw;
                     font-family: GothicA1-Light;
                 }
@@ -341,9 +346,7 @@
             &__item {
                 font-size: 3.200vw;
                 line-height: 3.733vw;
-                font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-                font-style: normal;
-                font-weight: 600;
+                font-family: GothicA1-Regular;
 
 
                 &::before {
@@ -361,8 +364,7 @@
             width: 88%;
             line-height: 1.7;
             margin-bottom: 10.667vw;
-            font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-            font-style: normal;
+            font-family: GothicA1-Medium;
             font-weight: 400;
         }
 
