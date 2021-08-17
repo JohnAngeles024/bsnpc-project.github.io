@@ -20,7 +20,7 @@
         &__item {
             &:nth-child(even) {
                 background-color: #fbf4d4;
-
+                
                 .content {
                     &__wrapper {
                         display: flex;
@@ -111,18 +111,18 @@
             font-weight: 900;
             margin: 1.333vw 0 3.200vw 0;
 
-
+            img{
+                width: 100%;
+                height: 100%;
+            }
 
             &--sub {
-                font-size: 4.267vw;
-                color: #221714;
-                text-align: center;
                 margin: 0 0 6.400vw 0;
-                background-image: url("../img/パス.png");
-                background-repeat: no-repeat;
-                background-position: center bottom;
-                background-size: 75.467vw 2.133vw;
                 height: 5.067vw;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
 
@@ -161,12 +161,6 @@
                 margin: auto;
                 padding-bottom: 8.133vw;
             }
-
-            &-dot {
-                width: 43.067vw;
-                margin: auto;
-            }
-
         }
 
         &__text {

@@ -106,16 +106,17 @@
     font-weight: 900;
     margin: 1.333vw 0 3.200vw 0;
   }
+  .banner__heading img {
+    width: 100%;
+    height: 100%;
+  }
   .banner__heading--sub {
-    font-size: 4.267vw;
-    color: #221714;
-    text-align: center;
     margin: 0 0 6.400vw 0;
-    background-image: url("../img/パス.png");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 75.467vw 2.133vw;
     height: 5.067vw;
+  }
+  .banner__heading--sub img {
+    width: 100%;
+    height: 100%;
   }
   .banner__span {
     position: relative;
@@ -157,10 +158,6 @@
     height: 8.667vw;
     margin: auto;
     padding-bottom: 8.133vw;
-  }
-  .banner__img-dot {
-    width: 43.067vw;
-    margin: auto;
   }
   .banner__text {
     font-size: 3.867vw;
