@@ -82,15 +82,15 @@
   }
   .main__item:nth-child(5) .content-figure {
     height: auto;
-    width: 660px;
+    width: 88vw;
     margin: auto;
   }
   .main__item:nth-child(5) .content__description {
-    width: 650px;
+    width: 86.667vw;
   }
   .main__item:nth-child(7) .content-figure {
     height: auto;
-    width: 660px;
+    width: 88vw;
     margin: auto;
   }
   .banner {
