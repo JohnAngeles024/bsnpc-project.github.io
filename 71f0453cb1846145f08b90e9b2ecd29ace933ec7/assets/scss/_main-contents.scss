@@ -121,6 +121,7 @@
             &--sub {
                 margin: 0 0 6.400vw 0;
                 height: 5.067vw;
+                width: 75.467vw;
 
                 img {
                     width: 100%;
@@ -155,6 +156,7 @@
             margin: auto;
             display: flex;
             flex-direction: column;
+            align-items: center;
         }
 
         &__img {
